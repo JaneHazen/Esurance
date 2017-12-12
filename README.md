@@ -1,5 +1,4 @@
 # Esurance
-  Sorry I did so poorly on this interview. <br>
   I made a React/Redux app where you can search by language to find better answers to the questions I stumbled over earlier today. 
 
 # How to: 
