@@ -1,0 +1,64 @@
+{
+  "questionsIndex": [
+      {
+          "id": 1,
+          "Language": "React",
+          "Question": "What is the lifecycle of React?",
+          "Answer": "React goes through four phases: initialization, mounting, updating, and unmounting. During initialization, React sets your defaults. Mounting is when your component is actually being set on the DOM so you have WillMount and DidMount functions sandwiching Render. Updating happens when a component's state or properties are altered. Functions like componentWillRecieveProps should ComponentUpdate and componentDidUpdate can be used to trigger a change for componets after they have already been rendered. Finally, unmounting is when you take a component off of the DOM."
+      },
+      {
+          "id": 2,
+          "Language": "ES6",
+          "Question": "What's the deal with arrow functions?",
+          "Answer": "They're super easy to write. Compare: var add = function(x, y) { return x + y; }; VERSUS var add = (x, y) => {return x + y};"
+      },
+      {
+          "id": 3,
+          "Language": "ES6",
+          "Question": "What are some new features in ES6?",
+          "Answer": " Default parameters are written like Ruby where you just pass the default through the function along with the variable. Fat arrow functions make writing functions super fast. There is actually a way to interpolate strings (${}) rather than just writing a billion + signs."
+      },
+      {
+          "id": 4,
+          "Language": "CS",
+          "Question": "What are the principles of OOP",
+          "Answer": "There are four. First is encapsulation, which is when you make things 'private' inside an object so that you can only manipulate information when you are inside that object. Next, there is abstraction, which is making use of APIs so that you know what each module does without neccessarily having to understand how each component is working. Following, there is the principle of inheritance, which sets up a hierarchy of objects so that code can be reused and passed down when objects are related to each other. Finally, there is a concept called polymorphism which allows multiple methods with the same name but different functionality."
+      },
+      {
+          "id": 5,
+          "Language": "React",
+          "Question": "How does React work?",
+          "Answer": "React uses a Model-View-Controller structure where the models are called components, the view is the DOM, and the controller are shifts in props/state. It uses a javascript representation of the DOM, the 'virtual DOM' which makes changes much faster to handle than if it had to update the browser DOM with each step."
+      },
+      {
+          "id": 6,
+          "Language": "Redux",
+          "Question": "How does Redux work?",
+          "Answer": "With Redux the state of your app is read-only. Changes must be made with pure functions, which makes apps (particularly complex React apps with a lot of components and state changes) easier to handle in a clear, readable way."
+      },
+      {
+          "id": 7,
+          "Language": "Redux",
+          "Question": "What goes into Redux?",
+          "Answer": "Redux starts out with an app that has an immutable state. Then you make reducers which have a lot of different cases. You can cause a change by getting a 'payload' by calling an action that relates to a specific reducer. You can then link this change to the component itself by mapping the new props to the component."
+      },
+      {
+          "id": 8,
+          "Language": "CS",
+          "Question": "What is CORS",
+          "Answer": "CORS is Cross-Origin Resource Sharing, which allows servers to specify who can access any endpoint. Commands like 'PUT' 'POST' and 'GET' are examples of this in action."
+      },
+      {
+          "id": 9,
+          "Language": "CS",
+          "Question": "How does CORS work?",
+          "Answer": "First the browser passes an origin header to the server (an HTTP options request), and the server responds with what access is allowed (in a header). This is called a pre-flight check. If everything is allowed, direct calls may be used. Keeping the scope of an Access-Control-Allow-origin header small can prevent a script origin attack."
+      },
+      {
+          "id": 10,
+          "Language": "SASS",
+          "Question": "What's up with SASS?",
+          "Answer": "SASS is a scripting language that can be compiled to CSS. It uses variables (defined with a $) for numbers, strings, colors, and booleans. It also allows nesting. SASS allows for @for, @each, and @while loops. These additions to traditional CSS allow SASS to be more readable and code to be more concise."
+      }
+  ]
+}
