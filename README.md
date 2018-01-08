@@ -1,5 +1,5 @@
-# Esurance
-  I made a React/Redux app where you can search by language to find better answers to the questions I stumbled over earlier today. 
+# Front End Wizards
+  I made a React/Redux app where you can search by language to find better answers to potential interview questions
 
 # How to: 
 * Clone repo 
